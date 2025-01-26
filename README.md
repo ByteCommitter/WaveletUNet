@@ -1,4 +1,4 @@
-# U-Net Image Segmentation for Chest X-Ray Images
+# U-Net and Wavelet U-Net
 
 I am currently having the wonderful opportunity to work under Rajesh sir (GitHub ID: [tripathy12345](https://github.com/tripathy12345)), on this project.
 
@@ -81,3 +81,8 @@ This ensures data integrity, eliminates storage issues, and makes the process mo
 Tuning and Debugging Model Training:
 
 Currently, we're refining the model's learning strategy, as initial predictions were poor, likely due to improper component scaling or network tuning.
+
+
+
+##Pywavelets and UNet
+We used Pywavelets as components, generated from each image as an input to the model. These are db4 wavelets, that python has pre implemented in it's libraries.
